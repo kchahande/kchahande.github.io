@@ -15,7 +15,7 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "en-UK"
 title                    : "Kaustubh Chahande"
 title_separator          : "-"
 name                     : "Kaustubh Chahande"
@@ -292,7 +292,7 @@ defaults:
     # _pages
     - scope:
         path: ""
-        type: Pages
-      values: single
+        type: posts
+      values:
         layout: single
         author_profile: true
