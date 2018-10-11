@@ -19,7 +19,7 @@ locale                   : "en-UK"
 title                    : "Kaustubh Chahande"
 title_separator          : "-"
 name                     : "Kaustubh Chahande"
-description              : "My Statistics, Econometrics, and Data Science Portfolio"
+description              : "My Portfolio"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -103,7 +103,7 @@ analytics:
 author:
   name             : "Kaustubh Chahande"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "My Statistics, Econometrics, and Data Science Portfolio"
+  bio              : "I am an amazing person."
   location         : "Washington, DC"
   email            :
   links:
@@ -288,11 +288,3 @@ defaults:
       comments: # true
       share: true
       related: true
-
-    # _pages
-    - scope:
-        path: ""
-        type: posts
-      values:
-        layout: single
-        author_profile: true
